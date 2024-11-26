@@ -1,7 +1,7 @@
 <template>
   <v-container>
    
-    <HomeHeader />
+   
 
    
     <v-row class="section-blue">
@@ -98,7 +98,7 @@
 </template>
 
 <script>
-import HomeHeader from '@/views/home/HomeHeader.vue';
+
 import ImpactOverview from '@/views/home/components/ImpactOverview.vue';
 import TotalInvested from '@/views/home/components/TotalInvested.vue';
 import ProjectSummary from '@/views/home/components/ProjectSummary.vue';
@@ -112,7 +112,7 @@ import QuickActions from '@/views/home/components/QuickActions.vue';
 export default {
   name: "DashboardHome",
   components: {
-    HomeHeader,
+    
     ImpactOverview,
     TotalInvested,
     ProjectSummary,
