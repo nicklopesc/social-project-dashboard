@@ -131,7 +131,7 @@ export default {
 .section-blue {
   background-color: #042940; 
   padding: 15px;
-  border-radius: 8px;
+  /* border-radius: 8px; */
 }
 
 .section-gray {
